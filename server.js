@@ -8,7 +8,7 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
   res.json({
-    message: "QryptShield Demo App Running 🚀",
+    message: "QryptShield Demo App Running super!!🚀",
     environment: ENV,
     timestamp: new Date(),
   });
